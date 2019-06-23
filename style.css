@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+}
+
+.json-container{
+    height: 400px;
+    width: 800px;
+    margin: 20px auto;
+    border: grey 1px dotted;
+    overflow: auto;
+}
+
+.image-container{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-container > div {
+    width: 250px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.image-container img {
+    width: 250px;
+    height: auto;
+}
